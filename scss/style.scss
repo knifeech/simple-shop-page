@@ -5,19 +5,126 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: $defaultFontSize;
 }
 
-nav {
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   a {
-    text-decoration: none;
     color: $fontColor;
   }
 
-  ul {
-    list-style: none;
+  div {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+    border-right: 1px solid black;
+
+    line-height: 46px;
   }
+  
+  img {
+    padding: 0 10px;
+  }
+}
+
+.div-company {
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.64em;
+}
+
+main {
+  margin-top: 160px;
+
+  display: flex;
+}
+
+.div-view {
+  margin-left: 52px;
+
+  color: $fontColor;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.second-gradient {
+  margin-top: 52px;
+}
+
+.p-view {
+  margin-top: 33px;
+}
+
+.div-item-photo {
+  margin-left: 120px;
+
+  position: relative;
+}
+
+.p-item-photo {
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.64em;
+
+  color: white;
+}
+
+.p-item {
+  position: absolute;
+  left: 37.5%;
+  top: 10.5%;
+}
+
+.p-photo {
+  position: absolute;
+  left: 32.5%;
+  bottom: 15.5%;
+}
+
+.div-item-name {
+  margin-left: 143px;
+
+  a {
+    color: $fontColor;
+  } 
+}
+
+.btn {
+  width: 443px;
+  height: 68px;
+}
+
+.btn-personalise {
+  margin-top: 130px;
+
+  border: 1px solid black;
+  padding: 17px 140px;
+} 
+
+.item-name-btns {
+
+}
+
+.btn-material {
+  border: 1px solid black;
+  padding: 17px 140px;
+}
+
+.btn-demensions {
+  border: 1px solid black;
+  padding: 17px 140px;
 }

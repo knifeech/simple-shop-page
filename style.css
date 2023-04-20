@@ -3,14 +3,17 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
 }
 
-nav a {
+a {
   text-decoration: none;
-  color: #000000;
 }
-nav ul {
-  list-style: none;
+
+.navbar {
+  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,4 +23,106 @@ nav ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.navbar a {
+  color: #000000;
+}
+.navbar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 1px solid black;
+  line-height: 46px;
+}
+.navbar img {
+  padding: 0 10px;
+}
+
+.div-company {
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.64em;
+}
+
+main {
+  margin-top: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-view {
+  margin-left: 52px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.second-gradient {
+  margin-top: 52px;
+}
+
+.p-view {
+  margin-top: 33px;
+}
+
+.div-item-photo {
+  margin-left: 120px;
+  position: relative;
+}
+
+.p-item-photo {
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.64em;
+  color: white;
+}
+
+.p-item {
+  position: absolute;
+  left: 37.5%;
+  top: 10.5%;
+}
+
+.p-photo {
+  position: absolute;
+  left: 32.5%;
+  bottom: 15.5%;
+}
+
+.div-item-name {
+  margin-left: 143px;
+}
+.div-item-name a {
+  color: #000000;
+}
+
+.btn {
+  width: 443px;
+  height: 68px;
+}
+
+.btn-personalise {
+  margin-top: 130px;
+  border: 1px solid black;
+  padding: 17px 140px;
+}
+
+.btn-material {
+  border: 1px solid black;
+  padding: 17px 140px;
+}
+
+.btn-demensions {
+  border: 1px solid black;
+  padding: 17px 140px;
 }
