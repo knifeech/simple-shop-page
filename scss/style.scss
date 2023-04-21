@@ -98,7 +98,7 @@ main {
 .div-item-name {
   margin-left: 143px;
 
-  a {
+  > a {
     color: $fontColor;
   } 
 }
@@ -106,25 +106,90 @@ main {
 .btn {
   width: 443px;
   height: 68px;
+
+  display: block;
+  
+  text-align: center;
+}
+
+.btn-with-arrow {
+  width: 443px;
+  height: 68px;
+
+  display: flex;
 }
 
 .btn-personalise {
-  margin-top: 130px;
+  margin-top: 30px;
 
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 17px 140px;
 } 
 
-.item-name-btns {
+.btn-card {
+  margin-top: 30px;
 
+  width: 380px;
+
+  border: 2px solid white;
+  padding: 17px 74px 17px 140px;
+
+  background-color: black;
+  color: white;
+}
+
+.p-card {
+  margin-left: 28px;
+}
+
+.btn-plus {
+  margin-top: 30px;
+
+  width: 64px;
+
+  border-width: 2px 2px 2px 0;
+  border-style: solid;
+  border-color: #000000;
+
+  padding: 18.5px;
+}
+
+.img-plus {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.item-name-btns {
+  width: 443px;
+  height: 68px;
+
+  display: flex;
+  align-items: center;
+}
+
+.p-delivery {
+  margin-top: 30px;
 }
 
 .btn-material {
-  border: 1px solid black;
+  margin-top: 90px;
+
+  border: 2px solid black;
   padding: 17px 140px;
 }
 
 .btn-demensions {
-  border: 1px solid black;
+  margin-top: 22px;
+  
+  border: 2px solid black;
   padding: 17px 140px;
+}
+
+.arrow-down-1 {
+  margin-left: 175px;
+}
+
+.arrow-down-2 {
+  margin-left: 142.5px;
 }
