@@ -20,22 +20,43 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 .navbar a {
   color: #000000;
 }
 .navbar div {
+  border: solid black;
+  border-width: 0 2px 0 0;
+  line-height: 46px;
+}
+.navbar .nav-card1-2 > a {
+  padding: 20px 60px 0 60px;
+}
+.navbar .nav-card3 > a {
+  padding: 20px 40px 0 60px;
+  letter-spacing: 0.64em;
+  font-size: 32px;
+}
+.navbar .nav-card4 {
+  padding: 0 100px;
+  height: 29px;
+  margin: 0 6px 0 12px;
+  background: #E7E7E7;
+  border: 1px solid black;
+  border-radius: 48px;
+}
+.navbar .nav-card4 .nav-card4-items {
+  border: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-right: 1px solid black;
-  line-height: 46px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -8.5px;
 }
 .navbar img {
-  padding: 0 10px;
+  padding: 0 14px 0 14px;
 }
 
 .div-company {
@@ -189,9 +210,73 @@ main {
 }
 
 .arrow-down-1 {
-  margin-left: 175px;
+  margin-left: 125.5px;
 }
 
 .arrow-down-2 {
-  margin-left: 142.5px;
+  margin-left: 110px;
+}
+
+.p-material {
+  margin-left: 50px;
+}
+
+.p-dimensions {
+  margin-left: 32.5px;
+}
+
+footer {
+  margin-top: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.footer-btn-1 {
+  width: 163px;
+  height: 50px;
+  background-color: black;
+  border: 1px solid black;
+}
+.footer-btn-1 a {
+  color: white;
+}
+
+.footer-btn-2-3-4-5 {
+  width: 163px;
+  height: 50px;
+  background-color: white;
+  border: solid black;
+  border-width: 0 2px 0 0;
+  color: black;
+}
+.footer-btn-2-3-4-5 a {
+  color: black;
+}
+
+.footer-btn-6 {
+  width: 625px;
+  height: 50px;
+}
+.footer-btn-6 a {
+  color: black;
 }
