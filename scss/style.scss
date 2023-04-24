@@ -48,9 +48,6 @@ a {
   .nav-card4 {
     border: none;
 
-    display: flex;
-    align-items: center;
-
     .nav-card4-items {
       border: none;
       display: flex;
@@ -60,8 +57,8 @@ a {
 
       img {
         position: absolute;
-        margin-top: 10px;
-        margin-left: 90px;
+        margin-top: 12px;
+        margin-left: 5px;
       }
 
       input {
@@ -73,10 +70,10 @@ a {
         height: 29px;
         margin: 10px 6px 0 12px;
         
-        padding-left: 20px;
+        padding-left: 40px;
 
         &::placeholder {
-          padding-left: 100px;
+          padding-left: 95px;
           color: black;
         }
       }
@@ -86,12 +83,20 @@ a {
   img {
     padding: 0 14px 0 14px;
   }
+
+  .nav-card9 {
+    border: none;
+    
+    img {
+      margin-top: 9px;
+    }
+  }
 }
 
-.div-company {
-  font-size: 32px;
-  line-height: 46px;
-  letter-spacing: 0.64em;
+.nav-card5 {
+  > a {
+   padding: 0px 70px;
+  }
 }
 
 main {
@@ -117,6 +122,10 @@ main {
 
 .p-view {
   margin-top: 33px;
+
+  a {
+    color: $fontColor;
+  }
 }
 
 .div-item-photo {
