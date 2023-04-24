@@ -40,26 +40,46 @@ a {
   .nav-card3 {
     > a {
       padding: 20px 40px 0 60px;
-
       letter-spacing: 0.64em;
       font-size: 32px;
     }
   }
 
   .nav-card4 {
-    padding: 0 100px;
-    height: 29px; 
-    margin: 0 6px 0 12px;
+    border: none;
 
-    background: #E7E7E7;
-    border: 1px solid black;
-    border-radius: 48px;
+    display: flex;
+    align-items: center;
 
     .nav-card4-items {
       border: none;
       display: flex;
       align-items: center;
       margin-top: -8.5px;
+      position: relative;
+
+      img {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 90px;
+      }
+
+      input {
+        background: #E7E7E7;
+        border: 1px solid black;
+        border-radius: 48px;
+
+        width: 333px;
+        height: 29px;
+        margin: 10px 6px 0 12px;
+        
+        padding-left: 20px;
+
+        &::placeholder {
+          padding-left: 100px;
+          color: black;
+        }
+      }
     }
   }
 

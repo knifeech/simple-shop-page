@@ -38,12 +38,13 @@ a {
   font-size: 32px;
 }
 .navbar .nav-card4 {
-  padding: 0 100px;
-  height: 29px;
-  margin: 0 6px 0 12px;
-  background: #E7E7E7;
-  border: 1px solid black;
-  border-radius: 48px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .navbar .nav-card4 .nav-card4-items {
   border: none;
@@ -54,6 +55,41 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin-top: -8.5px;
+  position: relative;
+}
+.navbar .nav-card4 .nav-card4-items img {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.navbar .nav-card4 .nav-card4-items input {
+  background: #E7E7E7;
+  border: 1px solid black;
+  border-radius: 48px;
+  width: 333px;
+  height: 29px;
+  margin: 10px 6px 0 12px;
+  padding-left: 20px;
+}
+.navbar .nav-card4 .nav-card4-items input::-webkit-input-placeholder {
+  padding-left: 100px;
+  color: black;
+}
+.navbar .nav-card4 .nav-card4-items input::-moz-placeholder {
+  padding-left: 100px;
+  color: black;
+}
+.navbar .nav-card4 .nav-card4-items input:-ms-input-placeholder {
+  padding-left: 100px;
+  color: black;
+}
+.navbar .nav-card4 .nav-card4-items input::-ms-input-placeholder {
+  padding-left: 100px;
+  color: black;
+}
+.navbar .nav-card4 .nav-card4-items input::placeholder {
+  padding-left: 100px;
+  color: black;
 }
 .navbar img {
   padding: 0 14px 0 14px;
