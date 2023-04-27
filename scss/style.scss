@@ -183,6 +183,13 @@ main {
 
   border: 2px solid black;
   padding: 17px 140px;
+
+  transition: .3s;
+
+  &:hover {
+    color: white;
+    background: $fontColor;
+  }
 } 
 
 .btn-card {
@@ -195,6 +202,14 @@ main {
 
   background-color: black;
   color: white;
+
+  transition: .3s;
+
+  &:hover {
+    color: $fontColor;
+    background: white;
+    border: 2px solid black;
+  }
 }
 
 .p-card {
@@ -210,7 +225,7 @@ main {
   border-style: solid;
   border-color: #000000;
 
-  padding: 18.5px;
+  padding: 20.5px;
 }
 
 .img-plus {
@@ -236,6 +251,13 @@ main {
 
   border: 2px solid black;
   padding: 17px 140px;
+  
+  transition: .3s;
+
+  &:hover {
+    color: white;
+    background: $fontColor;
+  }
 }
 
 .btn-demensions {
@@ -243,6 +265,13 @@ main {
   
   border: 2px solid black;
   padding: 17px 140px;
+  
+  transition: .3s;
+
+  &:hover {
+    color: white;
+    background: $fontColor;
+  }
 }
 
 .arrow-down-1 {
@@ -268,46 +297,52 @@ footer {
   align-items: center;
   justify-content: space-between;
 
-  a {
+  .footer-ul {
     display: flex;
     align-items: center;
-    justify-content: center;
 
-    text-decoration: none;
+    list-style: none;
+  }
 
-    margin-top: 12px;
+  a {
+    color: $fontColor;
+  }
+
+  div {
+    border: solid black;
+    border-width: 0 2px 0 0;
+
+    line-height: 46px;
+  }
+
+  .footer-cart1 {
+    border: none;
+
+    .footer-a-cart {
+      background: black;
+      color: white;
+
+      padding: 10px 65px;
+    }
   }
 }
 
-.footer-btn-1 {
-  width: 163px;
-  height: 50px;
-  background-color: black;
-  border: 1px solid black;
-
-  a {
-    color: white;
-  } 
+.footer-cart2-3-4 {
+  > a {
+    padding: 0px 40px;
+  }
 }
 
-.footer-btn-2-3-4-5 {
-  width: 163px;
-  height: 50px;
-  background-color: white;
-  border: solid black;
-  border-width: 0 2px 0 0;
-  color: black;
-
-  a {
-    color: black;
-  } 
+.footer-cart5 {
+  > a {
+    padding: 0px 60px;
+  }
 }
 
-.footer-btn-6 {
-  width: 625px;
-  height: 50px;
+.footer-cart6 {
+  border: none;
 
-  a {
-    color: black;
-  } 
+  > a {
+    padding: 0px 238px;
+  }
 }

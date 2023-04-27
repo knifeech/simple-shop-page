@@ -183,6 +183,12 @@ main {
   margin-top: 30px;
   border: 2px solid black;
   padding: 17px 140px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn-personalise:hover {
+  color: white;
+  background: #000000;
 }
 
 .btn-card {
@@ -192,6 +198,13 @@ main {
   padding: 17px 74px 17px 140px;
   background-color: black;
   color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn-card:hover {
+  color: #000000;
+  background: white;
+  border: 2px solid black;
 }
 
 .p-card {
@@ -204,7 +217,7 @@ main {
   border-width: 2px 2px 2px 0;
   border-style: solid;
   border-color: #000000;
-  padding: 18.5px;
+  padding: 20.5px;
 }
 
 .img-plus {
@@ -238,12 +251,24 @@ main {
   margin-top: 90px;
   border: 2px solid black;
   padding: 17px 140px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn-material:hover {
+  color: white;
+  background: #000000;
 }
 
 .btn-demensions {
   margin-top: 22px;
   border: 2px solid black;
   padding: 17px 140px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn-demensions:hover {
+  color: white;
+  background: #000000;
 }
 
 .arrow-down-1 {
@@ -274,46 +299,43 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-footer a {
+footer .footer-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: none;
-  margin-top: 12px;
+  list-style: none;
 }
-
-.footer-btn-1 {
-  width: 163px;
-  height: 50px;
-  background-color: black;
-  border: 1px solid black;
+footer a {
+  color: #000000;
 }
-.footer-btn-1 a {
-  color: white;
-}
-
-.footer-btn-2-3-4-5 {
-  width: 163px;
-  height: 50px;
-  background-color: white;
+footer div {
   border: solid black;
   border-width: 0 2px 0 0;
-  color: black;
+  line-height: 46px;
 }
-.footer-btn-2-3-4-5 a {
-  color: black;
+footer .footer-cart1 {
+  border: none;
+}
+footer .footer-cart1 .footer-a-cart {
+  background: black;
+  color: white;
+  padding: 10px 65px;
 }
 
-.footer-btn-6 {
-  width: 625px;
-  height: 50px;
+.footer-cart2-3-4 > a {
+  padding: 0px 40px;
 }
-.footer-btn-6 a {
-  color: black;
+
+.footer-cart5 > a {
+  padding: 0px 60px;
+}
+
+.footer-cart6 {
+  border: none;
+}
+.footer-cart6 > a {
+  padding: 0px 238px;
 }
